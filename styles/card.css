@@ -52,6 +52,7 @@ body {
     padding: 10px 20px;
     width: 70%;
     background: #FFFFFF;
+    margin-top: 26px;
 }
 
 .content__title {
@@ -182,9 +183,5 @@ body {
 
     .card__text__title {
         font-size: 20px;
-    }
-
-    .footer__text {
-        font-size: 24px;
     }
 }

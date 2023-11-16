@@ -1,5 +1,5 @@
 
-.header{
+.header {
     width: 100%;
     flex-shrink: 0;
     border-bottom: 1px solid gray;
@@ -36,11 +36,11 @@
 
 .content__title {
     color: var(--black, #121723);
-font-family: IBM Plex Mono;
-font-size: 48px;
-font-style: normal;
-font-weight: 500;
-line-height: 100%;
+    font-family: IBM Plex Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
 }
 
 
@@ -48,7 +48,7 @@ line-height: 100%;
     max-width: 1190px;
     margin: 0 auto;
     padding: 0 15px;
-  
+
 }
 
 .footer {
@@ -104,10 +104,117 @@ line-height: 100%;
     top: 70%;
     align-items: center;
     background: rgba(230, 232, 236, 0.40);
-    
+
   }
 
 .footer_picture {
     padding-bottom: 21px;
     padding-top: 21px;
+}
+
+@media only screen and (max-width: 1030px) {
+    .footer__link a {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .footer__links {
+        margin-right: 150px;
+    }
+
+
+    .footer__pict {
+        font-size: 12px;
+    }
+
+
+    .header__logo {
+        height: 37px;
+    }
+
+    .header__link a {
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .footer__links {
+        margin-right: 275px;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .footer__links {
+        margin-right: 350px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .footer__links {
+        margin-right: 450px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer__link a {
+        font-size: 14px;
+        margin-left: 16px;
+    }
+
+    .footer__links {
+        margin-right: 550px;
+    }
+
+
+    .footer__pict {
+        font-size: 8px;
+    }
+
+
+    .header__logo {
+        height: 30px;
+    }
+
+    .header__link a {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .header__wrap {
+        display: block;
+        margin: 50px 100px;
+        gap: 24px;
+    }
+
+    .icon {
+        margin-left: 40px;
+    }
+
+    .footer__wrap {
+        display: block;
+        margin: 50px 100px;
+        gap: 24px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .icon {
+        margin-left: 0px;
+    }
+
+    .header__links {
+        display: flex;
+    }
+
+    .header__link a {
+        display: flex;
+        margin: 10px auto;
+        font-size: 20px;
+    }
+
+    .footer-
+
 }
