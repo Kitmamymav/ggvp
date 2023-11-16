@@ -142,7 +142,36 @@ body {
 
 
 
-@media screen and (max-width: 900px) {
+@media only screen and (max-width: 1317px) {
+    .card__image {
+        width: 700px;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .card__image {
+        width: 500px;
+        height: 350px;
+    }
+
+    .card__text__description {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 744px) {
+    .card__image {
+        width: 300px;
+        height: 225px;
+    }
+
+    .card__text__description {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
     .content {
         margin: 32px 0;
     }
@@ -151,12 +180,8 @@ body {
         font-size: 24px;
     }
 
-    .card__text_title {
+    .card__text__title {
         font-size: 20px;
-    }
-
-    .card__text_author {
-        font-size: 16px;
     }
 
     .footer__text {
