@@ -49,8 +49,9 @@ body {
 .content {
     max-width: 1440px;
     box-sizing: border-box;
-    padding: 0 20px;
+    padding: 10px 20px;
     width: 70%;
+    background: #FFFFFF;
 }
 
 .content__title {
@@ -70,7 +71,6 @@ body {
     margin: 26px 0 0;
     column-gap: 30px;
     justify-content: center;
-    background: #FFFFFF;
 }
 
 .card__image {
@@ -102,17 +102,44 @@ body {
     font-weight: 700;
     line-height: normal;
     margin: 0;
-    padding: 10px 15px;
+    padding: 10px 0px;
 }
 
 .card__text_title {
     font-size: 26px;
 }
 
-.card__text_description {
+.card__description {
+    display: block;
+}
+
+.card__text__description {
+    font-size: 20px;
+    font-weight: 400;
+    float: left;
+    width: 45%;
+}
+
+.card__text__extra {
+    float: right;
+    width: 45%;
     font-size: 20px;
     font-weight: 400;
 }
+
+.card__text__extra__row {
+    display: block;
+    overflow: hidden;
+}
+
+.card__text__extra__key {
+    float: left;
+}
+
+.card__text__extra__value {
+    float: right;
+}
+
 
 
 @media screen and (max-width: 900px) {
