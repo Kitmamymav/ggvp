@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(./fonts/AnonymousPro-Regular.woff) format('woff'), 
+    url(./fonts/AnonymousPro-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    display: swap;
+}
+
+@font-face {
+    font-family: "IBM Plex Mono";
+    src: url(./fonts/IBMPlexMono-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    display: swap;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(./fonts/AnonymousPro-Bold.woff) format('woff'), 
+    url(./fonts/AnonymousPro-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    display: swap;
+}
+
+@font-face {
+    font-family: "Soyuz Grotesk";
+    src: url(./fonts/Soyuz\ Grotesk\ Bold.woff) format('woff'), 
+    url(./fonts/Soyuz\ Grotesk\ Bold.otf) format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    display: swap;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: #F1F1F1;
+    flex: 1 0 auto;
+    color: #121723;
+}
+
+.content {
+        max-width: 1440px;
+        box-sizing: border-box;
+        padding: 0 140px;
+
+}
+
+.content__title {
+    color: #121723;
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin: 24px;
+   
+}
+
+.content__cards {
+   
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 26px 0 0;
+    row-gap: 24px;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    
+}
+
+.card__image {
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px 12px 0 0;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    margin: 0;
+    border-radius: 0 0 12px 12px;
+    background: white;
+    min-height: 120px;
+}
+
+
+.card__link {
+    width: 85%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #121723;
+    text-decoration: none;
+}
+
+.card__text {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.card__text_title {
+    font-size: 26px;
+    margin-left: 20px;
+    
+}
+
+.card__text_author {
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.card__link:visited {
+    color: grey;
+}
+
+.card__link:hover {
+    color:  #7aad7e;
+}
+
+.card__link:active {
+    color: #5253FF;
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        margin: 32px 0;
+    }
+
+    .content__title {
+        font-size: 24px;
+    }
+
+    .card__text_title {
+        font-size: 20px;
+    }
+
+    .card__text_author {
+        font-size: 16px;
+    }
+
+    .footer__text {
+        font-size: 24px;
+    }
+}
