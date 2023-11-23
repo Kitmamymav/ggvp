@@ -200,6 +200,12 @@
     }
 }
 
+@media only screen and (max-width: 450px) {
+    .footer__wrap {
+        margin: 50px 55px;
+    }
+}
+
 @media only screen and (max-width: 400px) {
     .icon {
         margin-left: 0px;
@@ -215,6 +221,8 @@
         font-size: 20px;
     }
 
-    .footer-
-
+    .footer__icon {
+        width: 300px;
+        height: 16px;
+    }
 }

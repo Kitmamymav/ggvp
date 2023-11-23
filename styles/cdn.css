@@ -154,7 +154,7 @@ body {
 }
 
 .card:hover {
-    transform: scale(1.125);
+    transform: scale(1.025);
 }
 
 @media screen and (max-width: 900px) {
