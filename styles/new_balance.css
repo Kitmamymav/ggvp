@@ -1,0 +1,6 @@
+.card__image {
+    background: url(/images/1.png), lightgray 50% / cover no-repeat;
+    width: 735px;
+    height: 500px;
+    background-size:contain;
+}
